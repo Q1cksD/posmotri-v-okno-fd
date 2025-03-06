@@ -85,7 +85,7 @@ ol {
   grid-template-columns: 1fr 212px 1fr;
   align-items: start;
   column-gap: 40px;
-  height: 52px;
+  margin-bottom: -2px;
 }
 
 .search-form__fieldset {
@@ -253,6 +253,7 @@ input[type="checkbox"]:checked+.search-form__pseudo-checkbox::after {
 }
 
 .content__card-link {
+  display: block;
   text-decoration: none;
   color: #fff;
   width: 100%;
@@ -286,7 +287,8 @@ input[type="checkbox"]:checked+.search-form__pseudo-checkbox::after {
 }
 
 .content__video-card-title {
-  width: 194px;
+  max-width: 194px;
+  width: 100%;
   font-family: Oswald, sans-serif;
   font-style: normal;
   text-overflow: ellipsis;
@@ -297,7 +299,7 @@ input[type="checkbox"]:checked+.search-form__pseudo-checkbox::after {
   line-height: 106%;
   text-transform: uppercase;
   color: #FFFFFF;
-  margin-bottom: 5px;
+  margin-bottom: 3px;
 }
 
 .content__video-card-description {
